@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+        <EditText 
+        android:id="@+id/add_student_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="请输入班级编号"/>
+    <EditText 
+        android:id="@+id/add_student_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入班级名称"/>
+   
+      
+    <EditText 
+        android:id="@+id/add_student_birth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:hint="请输入开班时间：yyyy-mm-dd"/>
+
+</animation-list>

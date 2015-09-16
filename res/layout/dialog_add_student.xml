@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+            <EditText 
+        android:id="@+id/add_student_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="请输入学生编号"/>
+    <EditText 
+        android:id="@+id/add_student_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入学生姓名"/>
+    
+     <EditText 
+        android:id="@+id/add_student_sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入学生性别"/>
+    
+    <EditText 
+        android:id="@+id/add_student_birth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:hint="请输入学生生日：yyyy-mm-dd"/>
+
+</LinearLayout>
